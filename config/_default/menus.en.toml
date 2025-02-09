@@ -1,0 +1,61 @@
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 1
+
+# Blog Section
+
+[[main]]
+  name = "Blog"
+  weight = 2
+  pageRef = "posts"
+
+[[main]]
+  name = "Posts"
+  weight = 1
+  pageRef = "posts"
+  parent = "Blog"
+
+[[main]]
+  name = "Tags"
+  weight = 2
+  pageRef = "tags"
+  parent = "Blog"
+
+[[main]]
+  name = "Topics"
+  weight = 3
+  pageRef = "topics"
+  parent = "Blog"
+
+# Example Subnavigation
+
+[[subnavigation]]
+  name = ""
+  identifier = "linkedin"
+  pre = "linkedin"
+  url = "https://www.linkedin.com/in/bryskiewiczr"
+  target = "_blank"
+  weight = 1
+
+[[subnavigation]]
+  name = ""
+  identifier = "github"
+  pre = "github"
+  url = "https://www.github.com/bryskiewiczr"
+  target = "_blank"
+  weight = 2
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+ [[footer]]
+   name = "Tags"
+   pageRef = "tags"
+   weight = 1
+
+ [[footer]]
+   name = "Topics"
+   pageRef = "topics"
+   weight = 2
