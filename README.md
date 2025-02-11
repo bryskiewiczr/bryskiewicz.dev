@@ -1,3 +1,5 @@
 https://blowfish.page/docs/getting-started/
 
-`hugo server --buildDrafts --ignoreCache --disableFastRender --cleanDestinationDir`
+```
+hugo server --buildDrafts --ignoreCache --disableFastRender --cleanDestinationDir
+```

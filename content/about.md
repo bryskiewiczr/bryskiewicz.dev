@@ -2,19 +2,9 @@
 
 title = "About"
 
-date = "2025-02-09"
 layout = "simple"
+showTitle = false
 
 +++
 
-{{< highlight python >}}
-def hello_world():
-    print("Hello, Hugo!")
-{{< /highlight >}}
-
-
-{{< highlight javascript >}}
-let a = () => {
-    console.log("lmao");
-}
-{{< /highlight >}}
+# About Me
