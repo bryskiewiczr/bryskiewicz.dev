@@ -11,34 +11,58 @@
   pageRef = "posts"
 
 [[main]]
-  name = "Posts"
+  name = "Data Engineering"
   weight = 1
-  pageRef = "posts"
+  pageRef = "data-eng"
   parent = "Blog"
 
 [[main]]
-  name = "Tags"
+  name = "Game Development"
   weight = 2
-  pageRef = "tags"
+  pageRef = "game-dev"
   parent = "Blog"
 
 [[main]]
-  name = "Topics"
+  name = "After Hours"
   weight = 3
-  pageRef = "topics"
+  pageRef = "off-topic"
   parent = "Blog"
+
+# Projects
+
+[[main]]
+  name = "Projects"
+  weight = 3
+  pageRef = "projects"
+
+[[main]]
+  name = "Contact"
+  weight = 4
+  pageRef = "contact"
 
 # Example Subnavigation
 
-[[subnavigation]]
-  name = ""
-  identifier = "linkedin"
-  pre = "linkedin"
-  url = "https://www.linkedin.com/in/bryskiewiczr"
-  target = "_blank"
-  weight = 1
+#[[subnavigation]]
+#  name = ""
+#  identifier = "linkedin"
+#  pre = "linkedin"
+#  url = "https://www.linkedin.com/in/bryskiewiczr"
+#  target = "_blank"
+#  weight = 1
 
-[[subnavigation]]
+#[[subnavigation]]
+#  name = ""
+#  identifier = "github"
+#  pre = "github"
+#  url = "https://www.github.com/bryskiewiczr"
+#  target = "_blank"
+#  weight = 2
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+[[footer]]
   name = ""
   identifier = "github"
   pre = "github"
@@ -46,16 +70,10 @@
   target = "_blank"
   weight = 2
 
-# -- Footer Menu --
-# The footer menu is displayed at the bottom of the page, just before
-# the copyright notice. Configure as per the main menu above.
-
- [[footer]]
-   name = "Tags"
-   pageRef = "tags"
-   weight = 1
-
- [[footer]]
-   name = "Topics"
-   pageRef = "topics"
-   weight = 2
+[[footer]]
+  name = ""
+  identifier = "linkedin"
+  pre = "linkedin"
+  url = "https://www.linkedin.com/in/bryskiewiczr"
+  target = "_blank"
+  weight = 1
