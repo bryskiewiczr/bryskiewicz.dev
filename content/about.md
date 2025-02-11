@@ -40,9 +40,19 @@ I’m always eager to learn and explore new technologies that help me grow as a 
 
 ## 📜 Certifications
 
-<div class="flex space-x-2">
-    <a href="https://learn.microsoft.com/en-us/users/bryskiewiczr/credentials/1ef53e7585fbedb6"><img style="cursor: pointer;" src="/certs/azureDataFundamentals.png" width="150" height="150"></a>
-    <a href="https://www.credly.com/badges/4bb25ce3-43ed-48c5-9cce-e60bb66666aa"><img style="cursor: pointer;" src="/certs/apacheAirflowFundamentals.png" height="180" width="180"></a>
+<div class="flex space-x-5">
+    <div class="flex flex-col">
+        <a href="https://learn.microsoft.com/en-us/users/bryskiewiczr/credentials/1ef53e7585fbedb6" target="_blank">
+            <div class="flex flex-row"><img style="cursor: pointer;" src="/certs/azureDataFundamentals.png" width="200" height="200"></div>
+            <div class="flex flex-row text-xs italic">Azure Data Fundamentals (Feb 2025)</div>
+        </a>
+    </div>
+    <div class="flex flex-col">
+        <a href="https://learn.microsoft.com/en-us/users/bryskiewiczr/credentials/1ef53e7585fbedb6" target="_blank">
+            <div class="flex flex-row"><img style="cursor: pointer;" src="/certs/apacheAirflowFundamentals.png" width="226" height="226"></div>
+            <div class="flex flex-row text-xs italic">Apache Airflow Fundamentals (Feb 2025)</div>
+        </a>
+    </div>
 </div>
 
 *With more to come...*
