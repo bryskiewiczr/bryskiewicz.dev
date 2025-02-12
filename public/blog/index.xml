@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data-Engs on Blowfish</title>
-    <link>http://localhost:1313/data-eng/</link>
-    <description>Recent content in Data-Engs on Blowfish</description>
+    <title>Blowfish</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content on Blowfish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>robert@bryskiewicz.dev (Robert Bryśkiewicz)</managingEditor>
     <webMaster>robert@bryskiewicz.dev (Robert Bryśkiewicz)</webMaster>
     <copyright>© 2025 Robert Bryśkiewicz</copyright>
-    <lastBuildDate>Sat, 01 Feb 2025 09:30:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/data-eng/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Feb 2025 09:30:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>second blog post</title>
-      <link>http://localhost:1313/data-eng/second-post/</link>
+      <link>http://localhost:1313/blog/second-post/</link>
       <pubDate>Sat, 01 Feb 2025 09:30:00 +0000</pubDate>
       <author>robert@bryskiewicz.dev (Robert Bryśkiewicz)</author>
-      <guid>http://localhost:1313/data-eng/second-post/</guid>
+      <guid>http://localhost:1313/blog/second-post/</guid>
       <description>hi # hi hi hi # lorem ipsum dolor sit amet.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/data-eng/second-post/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/second-post/featured.png" />
     </item>
     
     <item>
       <title>blog post</title>
-      <link>http://localhost:1313/data-eng/first-post/</link>
+      <link>http://localhost:1313/blog/first-post/</link>
       <pubDate>Fri, 31 Jan 2025 09:30:00 +0000</pubDate>
       <author>robert@bryskiewicz.dev (Robert Bryśkiewicz)</author>
-      <guid>http://localhost:1313/data-eng/first-post/</guid>
+      <guid>http://localhost:1313/blog/first-post/</guid>
       <description>hi # hi hi hi # lorem ipsum dolor sit amet.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/data-eng/first-post/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/first-post/featured.png" />
     </item>
     
   </channel>

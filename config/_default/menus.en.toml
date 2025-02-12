@@ -3,32 +3,10 @@
   pageRef = "about"
   weight = 1
 
-# Blog Section
-
 [[main]]
   name = "Blog"
   weight = 2
-  pageRef = "posts"
-
-[[main]]
-  name = "Data Engineering"
-  weight = 1
-  pageRef = "data-eng"
-  parent = "Blog"
-
-[[main]]
-  name = "Game Development"
-  weight = 2
-  pageRef = "game-dev"
-  parent = "Blog"
-
-[[main]]
-  name = "After Hours"
-  weight = 3
-  pageRef = "off-topic"
-  parent = "Blog"
-
-# Projects
+  pageRef = "blog"
 
 [[main]]
   name = "Projects"
@@ -36,9 +14,9 @@
   pageRef = "projects"
 
 [[main]]
-  name = "Contact"
+  name = "Resume"
   weight = 4
-  pageRef = "contact"
+  pageRef = "resume"
 
 # Example Subnavigation
 
