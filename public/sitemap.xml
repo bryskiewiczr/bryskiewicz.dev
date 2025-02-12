@@ -3,78 +3,78 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/codesample/</loc>
+    <loc>https://bryskiewicz.dev/codesample/</loc>
     <lastmod>2025-02-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://bryskiewicz.dev/</loc>
     <lastmod>2025-02-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/data-eng/</loc>
+    <loc>https://bryskiewicz.dev/data-eng/</loc>
     <lastmod>2025-02-01T09:30:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/game-dev/</loc>
+    <loc>https://bryskiewicz.dev/game-dev/</loc>
     <lastmod>2025-02-01T09:30:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/off-top/</loc>
+    <loc>https://bryskiewicz.dev/off-top/</loc>
     <lastmod>2025-02-01T09:30:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/data-eng/second-post/</loc>
+    <loc>https://bryskiewicz.dev/data-eng/second-post/</loc>
     <lastmod>2025-02-01T09:30:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/game-dev/second-post/</loc>
+    <loc>https://bryskiewicz.dev/game-dev/second-post/</loc>
     <lastmod>2025-02-01T09:30:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/off-top/second-post/</loc>
+    <loc>https://bryskiewicz.dev/off-top/second-post/</loc>
     <lastmod>2025-02-01T09:30:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/data-eng/first-post/</loc>
+    <loc>https://bryskiewicz.dev/data-eng/first-post/</loc>
     <lastmod>2025-01-31T09:30:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/game-dev/first-post/</loc>
+    <loc>https://bryskiewicz.dev/game-dev/first-post/</loc>
     <lastmod>2025-01-31T09:30:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/off-top/first-post/</loc>
+    <loc>https://bryskiewicz.dev/off-top/first-post/</loc>
     <lastmod>2025-01-31T09:30:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://bryskiewicz.dev/about/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://bryskiewicz.dev/projects/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

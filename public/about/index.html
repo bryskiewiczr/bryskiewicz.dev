@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
-  data-auto-appearance="false"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  data-auto-appearance="false"><head>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -15,7 +15,7 @@
   
   
   
-  <link rel="canonical" href="http://localhost:1313/about/" />
+  <link rel="canonical" href="https://bryskiewicz.dev/about/" />
   
   
   
@@ -72,7 +72,7 @@
   <meta property="og:title" content="About" />
 <meta property="og:description" content="About Me # 👋 Who Am I?" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/about/" /><meta property="article:section" content="" />
+<meta property="og:url" content="https://bryskiewicz.dev/about/" /><meta property="article:section" content="" />
 
 
 
@@ -91,7 +91,7 @@
     
     "abstract": "About Me # 👋 Who Am I?",
     "inLanguage": "en",
-    "url" : "http:\/\/localhost:1313\/about\/",
+    "url" : "https:\/\/bryskiewicz.dev\/about\/",
     "author" : {
       "@type": "Person",
       "name": "Robert Bryśkiewicz"
@@ -168,6 +168,29 @@
   
   
   <meta name="theme-color"/>
+  
+  
+  
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script>
+
+    const firebaseConfig = {
+      apiKey: "{{ getenv `FIREBASE_API_KEY` }}",
+      authDomain: "{{ getenv `FIREBASE_API_KEY` }}",
+      projectId: "{{ getenv `FIREBASE_PROJECT_ID` }}",
+      storageBucket: "{{ getenv `FIREBASE_STORAGE_BUCKET` }}",
+      messagingSenderId: "{{ getenv `FIREBASE_MESSAGING_SENDER_ID` }}",
+      appId: "{{ getenv `FIREBASE_APP_ID` }}",
+      measurementId: "{{ getenv `FIREBASE_MEASUREMENT_ID` }}"
+    };
+
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+
+  </script>
   
   
 </head>
@@ -653,7 +676,7 @@
         </a>
     </div>
     <div class="flex flex-col">
-        <a href="https://learn.microsoft.com/en-us/users/bryskiewiczr/credentials/1ef53e7585fbedb6" target="_blank">
+        <a href="https://www.credly.com/badges/4bb25ce3-43ed-48c5-9cce-e60bb66666aa" target="_blank">
             <div class="flex flex-row"><img style="cursor: pointer;" src="/certs/apacheAirflowFundamentals.png" width="226" height="226"></div>
             <div class="flex flex-row text-xs italic">Apache Airflow Fundamentals (Feb 2025)</div>
         </a>
@@ -780,7 +803,7 @@
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="http://localhost:1313/"
+  data-url="https://bryskiewicz.dev/"
   style="z-index:500"
 >
   <div

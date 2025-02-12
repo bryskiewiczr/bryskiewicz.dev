@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Azure on Blowfish</title>
-    <link>http://localhost:1313/tags/azure/</link>
+    <link>https://bryskiewicz.dev/tags/azure/</link>
     <description>Recent content in Azure on Blowfish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>robert@bryskiewicz.dev (Robert Bryśkiewicz)</managingEditor>
     <webMaster>robert@bryskiewicz.dev (Robert Bryśkiewicz)</webMaster>
     <copyright>© 2025 Robert Bryśkiewicz</copyright>
-    <lastBuildDate>Sat, 01 Feb 2025 09:30:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Feb 2025 09:30:00 +0000</lastBuildDate><atom:link href="https://bryskiewicz.dev/tags/azure/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>second blog post</title>
-      <link>http://localhost:1313/data-eng/second-post/</link>
+      <link>https://bryskiewicz.dev/data-eng/second-post/</link>
       <pubDate>Sat, 01 Feb 2025 09:30:00 +0000</pubDate>
       <author>robert@bryskiewicz.dev (Robert Bryśkiewicz)</author>
-      <guid>http://localhost:1313/data-eng/second-post/</guid>
+      <guid>https://bryskiewicz.dev/data-eng/second-post/</guid>
       <description>hi # hi hi hi # lorem ipsum dolor sit amet.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/data-eng/second-post/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bryskiewicz.dev/data-eng/second-post/featured.png" />
     </item>
     
     <item>
       <title>second blog post</title>
-      <link>http://localhost:1313/game-dev/second-post/</link>
+      <link>https://bryskiewicz.dev/game-dev/second-post/</link>
       <pubDate>Sat, 01 Feb 2025 09:30:00 +0000</pubDate>
       <author>robert@bryskiewicz.dev (Robert Bryśkiewicz)</author>
-      <guid>http://localhost:1313/game-dev/second-post/</guid>
+      <guid>https://bryskiewicz.dev/game-dev/second-post/</guid>
       <description>hi # hi hi hi # lorem ipsum dolor sit amet.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/game-dev/second-post/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bryskiewicz.dev/game-dev/second-post/featured.png" />
     </item>
     
     <item>
       <title>second blog post</title>
-      <link>http://localhost:1313/off-top/second-post/</link>
+      <link>https://bryskiewicz.dev/off-top/second-post/</link>
       <pubDate>Sat, 01 Feb 2025 09:30:00 +0000</pubDate>
       <author>robert@bryskiewicz.dev (Robert Bryśkiewicz)</author>
-      <guid>http://localhost:1313/off-top/second-post/</guid>
+      <guid>https://bryskiewicz.dev/off-top/second-post/</guid>
       <description>hi # hi hi hi # lorem ipsum dolor sit amet.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/off-top/second-post/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bryskiewicz.dev/off-top/second-post/featured.png" />
     </item>
     
   </channel>
