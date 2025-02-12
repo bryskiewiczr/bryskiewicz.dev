@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
   data-auto-appearance="false"><head>
-	<meta name="generator" content="Hugo 0.123.7"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.123.7">
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -16,7 +16,7 @@
   
   
   
-  <link rel="canonical" href="http://localhost:1313/" />
+  <link rel="canonical" href="https://bryskiewicz.dev/" />
   
   <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Blowfish" />
   
@@ -77,7 +77,7 @@
   <meta property="og:title" content="Blowfish" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/" />
+<meta property="og:url" content="https://bryskiewicz.dev/" />
 
 
   <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Blowfish"/>
@@ -88,11 +88,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "@id": "http:\/\/localhost:1313\/",
+    "@id": "https:\/\/bryskiewicz.dev\/",
     "name": "Blowfish",
     
     "inLanguage": "en",
-    "url": "http:\/\/localhost:1313\/",
+    "url": "https:\/\/bryskiewicz.dev\/",
     
     "publisher" : {
       "@type": "Person",
@@ -160,6 +160,29 @@
   
   
   <meta name="theme-color"/>
+  
+  
+  
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script>
+
+    const firebaseConfig = {
+      apiKey: "{{ getenv `FIREBASE_API_KEY` }}",
+      authDomain: "{{ getenv `FIREBASE_API_KEY` }}",
+      projectId: "{{ getenv `FIREBASE_PROJECT_ID` }}",
+      storageBucket: "{{ getenv `FIREBASE_STORAGE_BUCKET` }}",
+      messagingSenderId: "{{ getenv `FIREBASE_MESSAGING_SENDER_ID` }}",
+      appId: "{{ getenv `FIREBASE_APP_ID` }}",
+      measurementId: "{{ getenv `FIREBASE_MEASUREMENT_ID` }}"
+    };
+
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+
+  </script>
   
   
 </head>
@@ -816,7 +839,7 @@
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="http://localhost:1313/"
+  data-url="https://bryskiewicz.dev/"
   style="z-index:500"
 >
   <div
