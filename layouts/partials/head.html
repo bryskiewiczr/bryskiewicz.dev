@@ -128,9 +128,24 @@
   {{ end }}
   <meta name="theme-color"/>
   {{/* Firebase */}}
-  {{ partial "firebaseConfig.html" . }}
   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
-  {{ partial "firebaseConfig.html" . }}
+  <script>
+
+    const firebaseConfig = {
+      apiKey: {{ getenv "FIREBASE_API_KEY" | default "dev" }},
+      authDomain: {{ getenv "FIREBASE_AUTH_DOMAIN" | default "dev" }},
+      projectId: {{ getenv "FIREBASE_PROJECT_ID" | default "dev" }},
+      storageBucket: {{ getenv "FIREBASE_STORAGE_BUCKET" | default "dev" }},
+      messagingSenderId: {{ getenv "FIREBASE_MESSAGING_SENDER_ID" | default "dev" }},
+      appId: {{ getenv "FIREBASE_APP_ID" | default "dev" }},
+      measurementId: {{ getenv "FIREBASE_MEASUREMENT_ID" | default "dev" }}
+    };
+
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+
+  </script>
 </head>
