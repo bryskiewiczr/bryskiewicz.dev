@@ -1,0 +1,16 @@
+<script>
+    const firebaseConfig = {
+        apiKey: "{{ .Env.FIREBASE_API_KEY }}",
+        authDomain: "{{ .Env.FIREBASE_AUTH_DOMAIN }}",
+        measurementId: "{{ .Env.FIREBASE_MEASUREMENT_ID }}",
+        projectId: "{{ .Env.FIREBASE_PROJECT_ID }}",
+        storageBucket: "{{ .Env.FIREBASE_STORAGE_BUCKET }}",
+        messagingSenderId: "{{ .Env.FIREBASE_MESSAGING_SENDER_ID }}",
+        appId: "{{ .Env.FIREBASE_APP_ID }}"
+    };
+
+    // Initialize Firebase
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+</script>
