@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Azure on Blowfish</title>
+    <title>Azure on Robert Bryśkiewicz</title>
     <link>http://localhost:1313/tags/azure/</link>
-    <description>Recent content in Azure on Blowfish</description>
+    <description>Recent content in Azure on Robert Bryśkiewicz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>robert@bryskiewicz.dev (Robert Bryśkiewicz)</managingEditor>
@@ -13,32 +13,12 @@
     
     <item>
       <title>second blog post</title>
-      <link>http://localhost:1313/data-eng/second-post/</link>
+      <link>http://localhost:1313/blog/second-post/</link>
       <pubDate>Sat, 01 Feb 2025 09:30:00 +0000</pubDate>
       <author>robert@bryskiewicz.dev (Robert Bryśkiewicz)</author>
-      <guid>http://localhost:1313/data-eng/second-post/</guid>
+      <guid>http://localhost:1313/blog/second-post/</guid>
       <description>hi # hi hi hi # lorem ipsum dolor sit amet.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/data-eng/second-post/featured.png" />
-    </item>
-    
-    <item>
-      <title>second blog post</title>
-      <link>http://localhost:1313/game-dev/second-post/</link>
-      <pubDate>Sat, 01 Feb 2025 09:30:00 +0000</pubDate>
-      <author>robert@bryskiewicz.dev (Robert Bryśkiewicz)</author>
-      <guid>http://localhost:1313/game-dev/second-post/</guid>
-      <description>hi # hi hi hi # lorem ipsum dolor sit amet.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/game-dev/second-post/featured.png" />
-    </item>
-    
-    <item>
-      <title>second blog post</title>
-      <link>http://localhost:1313/off-top/second-post/</link>
-      <pubDate>Sat, 01 Feb 2025 09:30:00 +0000</pubDate>
-      <author>robert@bryskiewicz.dev (Robert Bryśkiewicz)</author>
-      <guid>http://localhost:1313/off-top/second-post/</guid>
-      <description>hi # hi hi hi # lorem ipsum dolor sit amet.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/off-top/second-post/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/second-post/featured.png" />
     </item>
     
   </channel>

@@ -15,55 +15,19 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/data-eng/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-02-01T09:30:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/game-dev/</loc>
+    <loc>http://localhost:1313/blog/second-post/</loc>
     <lastmod>2025-02-01T09:30:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/off-top/</loc>
-    <lastmod>2025-02-01T09:30:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/data-eng/second-post/</loc>
-    <lastmod>2025-02-01T09:30:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/game-dev/second-post/</loc>
-    <lastmod>2025-02-01T09:30:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/off-top/second-post/</loc>
-    <lastmod>2025-02-01T09:30:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/data-eng/first-post/</loc>
-    <lastmod>2025-01-31T09:30:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/game-dev/first-post/</loc>
-    <lastmod>2025-01-31T09:30:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/off-top/first-post/</loc>
+    <loc>http://localhost:1313/blog/first-post/</loc>
     <lastmod>2025-01-31T09:30:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -75,6 +39,11 @@
   </url>
   <url>
     <loc>http://localhost:1313/projects/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/resume/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
