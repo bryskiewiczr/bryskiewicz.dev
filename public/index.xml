@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blowfish</title>
+    <title>Robert Bryśkiewicz</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Blowfish</description>
+    <description>Recent content on Robert Bryśkiewicz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>robert@bryskiewicz.dev (Robert Bryśkiewicz)</managingEditor>
@@ -57,7 +57,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>robert@bryskiewicz.dev (Robert Bryśkiewicz)</author>
       <guid>http://localhost:1313/projects/</guid>
-      <description>Data Engineering # Apache Airflow w/ Minio demo # null A simple example of how Airflow works with Minio</description>
+      <description>Data Engineering # Apache Airflow w/ Minio demo # bryskiewiczr/airflow-minio-demo Python 0 0 A simple example of how Airflow works with Minio</description>
       
     </item>
     
@@ -67,7 +67,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>robert@bryskiewicz.dev (Robert Bryśkiewicz)</author>
       <guid>http://localhost:1313/resume/</guid>
-      <description>About Me # 👋 Who Am I?</description>
+      <description>Work Experience # Company Role Time Period Location ConnectPoint Poland Data Engineer Jan 2022 - Current Remote (Germany) Meta Platforms (prev.</description>
       
     </item>
     

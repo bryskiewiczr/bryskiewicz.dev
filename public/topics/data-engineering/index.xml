@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data Engineering on Blowfish</title>
+    <title>Data Engineering on Robert Bryśkiewicz</title>
     <link>http://localhost:1313/topics/data-engineering/</link>
-    <description>Recent content in Data Engineering on Blowfish</description>
+    <description>Recent content in Data Engineering on Robert Bryśkiewicz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>robert@bryskiewicz.dev (Robert Bryśkiewicz)</managingEditor>

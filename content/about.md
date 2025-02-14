@@ -7,9 +7,7 @@ showTitle = false
 
 +++
 
-# About Me
-
-
+## About Me
 
 ### 👋 Who Am I?
 
