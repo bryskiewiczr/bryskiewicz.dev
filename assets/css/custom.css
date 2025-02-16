@@ -1,4 +1,5 @@
-/* CUSTOM CSS FOR CONTACT PAGE */
+/* contact page */
+
 .hide-content {
     display: none;
 }
@@ -8,13 +9,13 @@
 }
 
 .notebook {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
 }
 
 .cell {
     margin-bottom: 1rem;
     transition: box-shadow 0.3s;
-    display: none; /* Hide cells initially */
+    display: none;
 }
 
 .cmd-label {
@@ -28,10 +29,12 @@
     padding-left: 3rem;
     border-radius: 4px;
     border: 1px solid #ddd;
+    min-height: 2.6rem;
 }
 
 .input.active {
     border: 1px solid #0070c9;
+    border-left: 5px solid #0070c9;
     border-radius: 4px;
     text-decoration: none;
 }
@@ -58,7 +61,7 @@
     border-radius: 4px;
     margin-top: 0.5rem;
     min-height: 2.8rem;
-    display: none; /* Hide output initially */
+    display: none;
 }
 
 .output .loading {
@@ -79,11 +82,20 @@
     text-decoration: underline;
 }
 
+@keyframes halfblink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
 @keyframes blink {
     0%, 100% { opacity: 1; }
     50% { opacity: 0; }
 }
 
 .blinking-cursor {
-    animation: blink 0.7s infinite;
+    animation: blink 0.8s infinite;
+}
+
+.notebook-loading-blink {
+    animation: halfblink 0.8s infinite;
 }

@@ -10,7 +10,7 @@ showTitle = false
 <div id="notebook-loading" class="show-content">
     <div class="flex flex-col min-w-full items-center">
         <div class="flex flex-row">
-            <h3 class="blinking-cursor">Notebook Loading</h3>
+            <h3 class="notebook-loading-blink">Notebook Loading</h3>
         </div>
     </div>
 </div>
@@ -21,9 +21,6 @@ showTitle = false
             <div id="input1" class="input bg-gray-200 p-4 rounded-md">
                 <div class="line-numbers">1</div>
                 <div class="line-content"></div>
-        </div>
-        <div id="output1" class="output bg-white p-4 rounded-md border-l-4 border-green-500 mt-2">
-            <div class="loading">Loading...</div>
         </div>
     </div>
     <div class="cell mb-4">
@@ -78,9 +75,9 @@ showTitle = false
 <pre id="static-notebook" class="notebook p-6 bg-gray-100 rounded-lg shadow-md hide-content">
 <b>Email:</b> <a href="mailto:your-email@example.com?subject=Hello!&body=Hi!" class="text-blue-500">your-email@example.com</a><br>
 <b>Socials:</b><br>
-- <b>Github:</b> <a href="https://github.com/your-github" target="_blank" class="text-blue-500">your-github</a><br>
-- <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/your-linkedin/" target="_blank" class="text-blue-500">Your Name</a><br>
-- <b>Website:</b> <a href="https://your-website.com" target="_blank" class="text-blue-500">your-website.com</a>
+- <b>Github:</b> <a href="https://www.github.com/bryskiewiczr" target="_blank" class="text-blue-500">https://www.github.com/bryskiewiczr</a><br>
+- <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/bryskiewiczr/" target="_blank" class="text-blue-500">https://www.linkedin.com/in/bryskiewiczr/</a><br>
+- <b>Website:</b> <a href="https://www.bryskiewicz.dev" target="_blank" class="text-blue-500">https://www.bryskiewicz.dev <- you're here</a>
 </pre>
 
 <script>
@@ -104,7 +101,6 @@ showTitle = false
         const inputs = document.querySelectorAll('.input');
         const cells = document.querySelectorAll('.cell');
         const input1 = document.getElementById('input1').querySelector('.line-content');
-        const output1 = document.getElementById('output1');
         const input2 = document.getElementById('input2').querySelector('.line-content');
         const output2 = document.getElementById('output2');
         const input3 = document.getElementById('input3').querySelector('.line-content');
@@ -145,77 +141,84 @@ showTitle = false
             document.querySelector('#notebook-loading').classList.add("hide-content");
             document.querySelector('#notebook-loading').classList.remove("show-content");
             document.querySelector(".notebook").classList.add("show-content");
-        }, 1500);
+        },  1500);
 
         setTimeout(() => {
             activateCell(0);
+        }, 1500);
+        setTimeout(() => {
             typeEffect(input1, 'contact = robert.get("contact_info")');
-        }, 2500);
-        setTimeout(() => {
-            showLoading(output1);
-        }, 4500);
-        setTimeout(() => {
-            hideLoading(output1);
-            output1.innerHTML = 'Connecting to contact info...';
-            deactivateCell(0);
-        }, 5500);
+        }, 2000);
+
         setTimeout(() => {
             activateCell(1);
+        }, 3250);
+        setTimeout(() => {
             typeEffect(input2, 'contact.help()');
-        }, 6500);
+        }, 3750);
 
         setTimeout(() => {
             showLoading(output2);
-        }, 5500);
+        }, 4250);
         setTimeout(() => {
             hideLoading(output2);
-            output2.innerHTML = '<b>Available commands:</b><br>- email() -> Show contact email<br>- social() -> Show social links<br>- exit() -> Disconnect';
+            output2.innerHTML = '<b>Available commands:</b><br>- name() -> Show full name<br>- email() -> Show email address<br>- socials() -> Show social links';
             deactivateCell(1);
-        }, 6000);
+        }, 4500);
+
         setTimeout(() => {
             activateCell(2);
+        }, 5000);
+        setTimeout(() => {
             typeEffect(input3, 'contact.name()');
-        }, 6500);
+        }, 5500);
 
         setTimeout(() => {
             showLoading(output3);
-        }, 8500);
+        }, 6000);
         setTimeout(() => {
             hideLoading(output3);
-            output3.innerHTML = '<b>Email:</b> <a href="mailto:your-email@example.com?subject=Hello!&body=Hi!" class="text-blue-500">your-email@example.com</a>';
+            output3.innerHTML = '<b>Name:</b> Robert Bryśkiewicz';
             deactivateCell(2);
-        }, 9000);
+        }, 6250);
+
         setTimeout(() => {
             activateCell(3);
+        }, 7000);
+        setTimeout(() => {
             typeEffect(input4, 'contact.email()');
-        }, 9500);
+        }, 7500);
 
         setTimeout(() => {
             showLoading(output4);
-        }, 11500);
+        }, 8000);
         setTimeout(() => {
             hideLoading(output4);
-            output4.innerHTML = '<b>Socials:</b><br>- <b>Github:</b> <a href="https://github.com/your-github" target="_blank" class="text-blue-500">your-github</a><br>- <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/your-linkedin/" target="_blank" class="text-blue-500">Your Name</a><br>- <b>Website:</b> <a href="https://your-website.com" target="_blank" class="text-blue-500">your-website.com</a>';
+            output4.innerHTML = '<b>Email:</b> <a href="mailto:robert@bryskiewicz.dev?subject=Hello!&body=Hi!" class="text-blue-500">robert@bryskiewicz.dev</a>';
             deactivateCell(3);
-        }, 12000);
+        }, 8250);
+
         setTimeout(() => {
             activateCell(4);
+        }, 8750);
+
+        setTimeout(() => {
             typeEffect(input5, 'contact.socials()');
-        }, 12500);
+        }, 9250);
 
         setTimeout(() => {
             showLoading(output5);
-        }, 14500);
+        }, 9750);
         setTimeout(() => {
             hideLoading(output5);
-            typeEffect(output5, 'Connection closed.');
+            output5.innerHTML = '<b>Socials:</b><br>- <b>Github:</b> <a href="https://github.com/bryskiewiczr" target="_blank" class="text-blue-500">https://github.com/bryskiewiczr</a><br>- <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/bryskiewiczr/" target="_blank" class="text-blue-500">https://www.linkedin.com/in/bryskiewiczr/</a><br>- <b>Website:</b> <a href="https://bryskiewicz.dev" target="_blank" class="text-blue-500">https://bryskiewicz.dev</a> <- you\'re here!';
             deactivateCell(4);
-        }, 15000);
+        }, 10250);
 
         setTimeout(() => {
             activateCell(5);
             input6.style.display = 'block';
-        }, 15500);
+        }, 10750);
     }
 
     let staticNotebook = document.getElementById("static-notebook");
