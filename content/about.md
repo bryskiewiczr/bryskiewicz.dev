@@ -36,7 +36,7 @@ I’m always eager to learn and explore new technologies that help me grow as a 
 
 ---
 
-## 📜 Certifications
+### 📜 Certifications
 
 <div class="flex space-x-5">
     <div class="flex flex-col items-center">
@@ -60,7 +60,7 @@ I’m always eager to learn and explore new technologies that help me grow as a 
 
 ---
 
-## 📜 Languages
+### 📜 Languages
 
 - [English | C2 Proficiency - Issued by University of Cambridge (Nov 2017)](https://www.cambridgeenglish.org/exams-and-tests/proficiency/)
 
