@@ -1,0 +1,89 @@
+/* CUSTOM CSS FOR CONTACT PAGE */
+.hide-content {
+    display: none;
+}
+
+.show-content {
+    display: block;
+}
+
+.notebook {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cell {
+    margin-bottom: 1rem;
+    transition: box-shadow 0.3s;
+    display: none; /* Hide cells initially */
+}
+
+.cmd-label {
+    font-size: 0.875rem;
+}
+
+.input {
+    position: relative;
+    background-color: #f9f9f9;
+    padding: 0.4rem;
+    padding-left: 3rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.input.active {
+    border: 1px solid #0070c9;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.input .line-numbers {
+    position: absolute;
+    left: 1rem;
+    top: 0.4rem;
+    color: #aaa;
+    user-select: none;
+    border-right: 2px solid #ddd;
+    padding-right: 1rem;
+}
+
+.input .line-content {
+    margin-left: 1rem;
+}
+
+.output {
+    position: relative;
+    background-color: #fff;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    min-height: 2.8rem;
+    display: none; /* Hide output initially */
+}
+
+.output .loading {
+    position: absolute;
+    top: 0.4rem;
+    left: 1rem;
+    font-size: 1rem;
+    color: #888;
+    animation: blink 1s infinite;
+}
+
+.output a {
+    color: #0070c9;
+    text-decoration: none;
+}
+
+.output a:hover {
+    text-decoration: underline;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.blinking-cursor {
+    animation: blink 0.7s infinite;
+}
