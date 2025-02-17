@@ -85,7 +85,7 @@ showTitle = false
         return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
     }
 
-    function typeEffect(element, text, delay = 20) {
+    function typeEffect(element, text, delay = 10) {
         let index = 0;
         const interval = setInterval(() => {
             if (index < text.length) {
