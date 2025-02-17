@@ -1,6 +1,6 @@
 +++
 
-title = "Resume"
+title = "Work Experience"
 
 layout = "simple"
 showTitle = false
