@@ -1,5 +1,5 @@
 +++
-title = "blog post"
+title = "Create a simplified data analytics mart with dbt, Airflow and Snowflake in 30 minutes"
 desc = "something about blog post"
 showHero = true
 date = "2025-01-31T09:30:00+00:00"
