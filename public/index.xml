@@ -32,7 +32,7 @@
     </item>
     
     <item>
-      <title>blog post</title>
+      <title>Create a simplified data analytics mart with dbt, Airflow and Snowflake in 30 minutes</title>
       <link>http://localhost:1313/blog/first-post/</link>
       <pubDate>Fri, 31 Jan 2025 09:30:00 +0000</pubDate>
       <author>robert@bryskiewicz.dev (Robert Bryśkiewicz)</author>
