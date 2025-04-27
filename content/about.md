@@ -54,6 +54,11 @@ I’m always eager to learn and explore new technologies that help me grow as a 
             <div class="flex-row"><img style="cursor: pointer;" src="/certs/databricksLakehouseFundamentals.png" width="180" height="180"></div>
         </a>
     </div>
+    <div class="flex flex-col items-center">
+        <a href="https://credentials.databricks.com/3d6c4a69-6d61-4aa0-b797-d89d2604cf7a" target="_blank">
+            <div class="flex-row"><img style="cursor: pointer;" src="/certs/databricksDataEngAssociate.png" width="180" height="180"></div>
+        </a>
+    </div>
 </div>
 
 *With more to come...*
