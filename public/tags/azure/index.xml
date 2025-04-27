@@ -9,17 +9,7 @@
     <managingEditor>robert@bryskiewicz.dev (Robert Bryśkiewicz)</managingEditor>
     <webMaster>robert@bryskiewicz.dev (Robert Bryśkiewicz)</webMaster>
     <copyright>© 2025 Robert Bryśkiewicz</copyright>
-    <lastBuildDate>Sat, 01 Feb 2025 09:30:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/azure/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>second blog post</title>
-      <link>http://localhost:1313/blog/second-post/</link>
-      <pubDate>Sat, 01 Feb 2025 09:30:00 +0000</pubDate>
-      <author>robert@bryskiewicz.dev (Robert Bryśkiewicz)</author>
-      <guid>http://localhost:1313/blog/second-post/</guid>
-      <description>hi # hi hi hi # lorem ipsum dolor sit amet.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/second-post/featured.png" />
-    </item>
+    <atom:link href="http://localhost:1313/tags/azure/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

@@ -9,19 +9,9 @@
   pageRef = "blog"
 
 [[main]]
-  name = "Projects"
-  weight = 3
-  pageRef = "projects"
-
-[[main]]
   name = "Contact"
   weight = 4
   pageRef = "contact"
-
-[[main]]
-  name = "Experience"
-  weight = 5
-  pageRef = "experience"
 
 [[main]]
   name = ""
