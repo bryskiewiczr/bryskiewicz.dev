@@ -20,7 +20,7 @@ showTitle = false
 
 ### But what exactly is a _Data Engineer_?
 
-**Data Engineers**  — are data pipeline architects, SQL wizards, JSON therapists, API whisperers and guardians of ~~the galaxy~~ clean data.
+**Data Engineers** are data pipeline architects, SQL wizards, JSON therapists, API whisperers and guardians of ~~the galaxy~~ clean data.
 
 We **build and maintain the invisible highways that transport data from point A to point B**, ensuring that analysts and data scientists don’t have to scrape insights off the floor. 
 
