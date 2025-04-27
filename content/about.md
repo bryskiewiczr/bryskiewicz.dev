@@ -7,26 +7,26 @@ showTitle = false
 
 +++
 
-## About Me
+# About Me
 
-### 👋 Who Am I?
+### Who Am I?
 
 <div class="flex items-center">
     <img src="/headshot/profileCircle.png" height="150" width="150">
-    <p class="pl-[24px]">Hi, I’m <strong>Robert Bryśkiewicz</strong> — a data engineer passionate about building efficient, scalable data systems. <br/> With over five years of experience, I specialize in designing, optimizing, and maintaining data pipelines that keep businesses running smoothly.</p>
+    <p class="pl-[24px]">Hi, I’m <strong>Robert Bryśkiewicz</strong> — a data engineer passionate about building efficient, scalable data systems. <br/><br/> With over five years of experience, I specialize in designing, optimizing, and maintaining data pipelines that keep businesses running smoothly.</p>
 </div>
 
 ---
 
-### 🔧 But what exactly is a _Data Engineer_?
+### But what exactly is a _Data Engineer_?
 
-**Data Engineer** (/ˈdeɪtə ˈɛnʤɪnɪr/ or /ˈdætə ˈɛnʤɪnɪr/, depending on how fancy you feel) — a data pipeline architect, SQL wizard, JSON therapist, API whisperer and guardian of ~~the galaxy~~ clean data.
+**Data Engineers**  — are data pipeline architects, SQL wizards, JSON therapists, API whisperers and guardians of ~~the galaxy~~ clean data.
 
-Data Engineers **build and maintain the invisible highways that transport data from point A to point B**, ensuring that analysts and data scientists don’t have to scrape insights off the floor. 
+We **build and maintain the invisible highways that transport data from point A to point B**, ensuring that analysts and data scientists don’t have to scrape insights off the floor. 
 
-We spend our days **wrangling rogue datasets, untangling code spaghetti**, and explaining (for the hundredth time) why **“just throwing it in Excel”** is *not* a scalable solution.
+We spend our days **wrangling rogue datasets, untangling code spaghetti**, and explaining (for the hundredth time) why **“just throwing it in Excel”** is (usually) *not* a scalable solution.
 
-Think of us as the **backstage crew of the data world** — if everything works perfectly, nobody notices; if something breaks, *suddenly* everyone cares.
+Think of us as the **backstage crew of the data world** — if everything works perfectly, nobody notices; if something breaks, *suddenly* everyone ~~loses their minds~~ cares.
 
 ---
 
@@ -36,7 +36,7 @@ I’m always eager to learn and explore new technologies that help me grow as a 
 
 ---
 
-### 📜 Certifications
+### 📜 Certifications & Accreditations
 
 <div class="flex space-x-5">
     <div class="flex flex-col items-center">
@@ -51,23 +51,36 @@ I’m always eager to learn and explore new technologies that help me grow as a 
     </div>
     <div class="flex flex-col items-center">
         <a href="https://credentials.databricks.com/a93795d9-fc83-4229-ac1b-58ad38e52bd0" target="_blank">
-            <div class="flex-row"><img style="cursor: pointer;" src="/certs/databricksLakehouseFundamentals.png" width="180" height="180"></div>
+            <div class="flex-row"><img style="cursor: pointer;" src="/certs/databricksLakehouseFundamentals.png" width="180"></div>
         </a>
     </div>
     <div class="flex flex-col items-center">
         <a href="https://credentials.databricks.com/3d6c4a69-6d61-4aa0-b797-d89d2604cf7a" target="_blank">
-            <div class="flex-row"><img style="cursor: pointer;" src="/certs/databricksDataEngAssociate.png" width="180" height="180"></div>
+            <div class="flex-row"><img style="cursor: pointer;" src="/certs/databricksDataEngAssociate.png" width="200"></div>
         </a>
     </div>
 </div>
 
-*With more to come...*
+*I am continuously working on expanding my tech toolkit and certifications are a way of patting myself on the back and validating my knowledge.*
 
 ---
 
 ### 📜 Languages
 
 - [English | C2 Proficiency - Issued by University of Cambridge (Nov 2017)](https://www.cambridgeenglish.org/exams-and-tests/proficiency/)
+
+---
+
+### Data Engineering aside, in my free time, I am...
+
+...usually somewhere between learning and tinkering. When I am not spending time with my wife and cats, I probably am:
+
+- experimenting with game development, learning Godot and Unity
+- trying to create assets for my games creating pixel art or 3D models
+- playing around with music production or just jamming to my favorite metal tunes on one of my electric guitars
+- or just playing video games (because of my recently developed affinity for making games, I call this `market research`)
+
+Sometime in the future (near or far) I hope to start writing blog posts about game development (my journey), or maybe even create YouTube Developer Diaries.
 
 ---
 
